@@ -16,7 +16,7 @@ function Carroussel() {
     }
 
     return (
-        <div className='carrousel_wrapper' style={{ height: `${window.innerHeight}px`}}>
+        <div className='carrousel_wrapper' >
             <Slider {...settings}>
                 <div>
                     <div className='carrousel_image' style={{ 
