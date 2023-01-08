@@ -32,7 +32,7 @@ function VenueNfo(props) {
                                         background:`url(${icon_location})`
                                     }}></div>
                                     <div className='vn_title'>Event Location</div>
-                                    <div className='vn_desc'>2301 Flora St, Dallas, TX 75201</div>
+                                    <div className='vn_desc'>2200 N Lamar St, Dallas, TX 75202</div>
                                 </div>
 
                             </div>
