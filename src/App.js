@@ -4,6 +4,7 @@ import Footer from './components/header_footer/Footer';
 import Featured from './components/featured/Featured';
 import VenueNfo from './components/venueNfo/VenueNfo';
 import Highlights from './components/highlights/Highlights';
+import Pricing from './components/pricing/Pricing';
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
       <>
         <Highlights />
       </>
+      <>
+        <Pricing />
+      </>
       <div style={{backgroundColor: 'red', height:'800px'}}></div>
       <div style={{backgroundColor: 'blue', height:'800px'}}></div>
-      <div style={{backgroundColor: 'green', height:'800px'}}></div>
-      <div style={{backgroundColor: 'yellow', height:'800px'}}></div>
       <Footer/>
     </div>
   );
